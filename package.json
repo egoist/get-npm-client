@@ -28,6 +28,10 @@
     "extends": "rem",
     "envs": [
       "jest"
-    ]
+    ],
+    "rules": {
+      "unicorn/filename-case": "off",
+      "no-return-assign": "off"
+    }
   }
 }
