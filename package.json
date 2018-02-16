@@ -1,6 +1,6 @@
 {
   "name": "get-npm-client",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get npm client.",
   "repository": {
     "url": "egoist/get-npm-client",
@@ -15,13 +15,14 @@
     "lint": "xo"
   },
   "author": "egoist <0x142857@gmail.com>",
-  "license": "MIT",  "jest": {
+  "license": "MIT",
+  "jest": {
     "testEnvironment": "node"
   },
   "dependencies": {},
   "devDependencies": {
-    "jest-cli": "^19.0.0",
     "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^19.0.0",
     "xo": "^0.18.0"
   },
   "xo": {
